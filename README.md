@@ -1,5 +1,12 @@
 # allnews
 ```
+# Title: Scraping American Thinker - Charles Simpson
+
+    Instructions:
+        To Scrape and load the days news goto /scrape
+        To make a Note, click on the Article
+        To see full article, click on Article Title above Note
+
 # All the News That's Fit to Scrape
 
 ### Overview
