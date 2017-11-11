@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Scraping American Thinker</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/americanThinker.css">
+ 
+ 
+    <style>
+      /* body { background-color: #F2F6D0 } */
+      /* body { background-color: white } */
+      #wrapper {
+        /* width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5%; */
+      }
+      #articles {
+        display: inline-block;
+        overflow: auto;
+        width: 60%;
+        height: 700px;
+      }
+      #notes {
+        float: right;
+        width: 30%;
+      }
+      textarea, input {
+        display: block;
+        width: 100%;
+        background-color: #FCF5C7;
+      }
+      input {
+        height: 36px;
+        font-size: 24px;
+      }
+      textarea {
+        height: 200px;
+        font-size: 18px;
+      }
+    </style>
+  
+  </head>
+  <body>
+    <div id="wrapper">
+      <img src="images/ATLogo.PNG" alt="American Thinker Logo" style="width:100%;height:300px;">
+      <h1>American Thinker - News Scraper</h1>
+      <h2><i>To Scrape and load the days news goto /scrape</i></h2>
+      <h2><i>To make a Note, click on the Article</i></h2>
+      <h2><i>To see full article, click on Article Title above Note</i></h2>
+      <main>
+        <div id="articles"></div>
+        <div id="notes"></div>
+      </main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
